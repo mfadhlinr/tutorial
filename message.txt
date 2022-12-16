@@ -1,0 +1,128 @@
+Stok_tahu=[10,10,10,10,10,10,10,10,10,10]
+harga=1000
+Jumlah_pembayaran=int(input('berapa uang yang akan di bayarkan: '))
+Jumlah_tahu_yang_dibeli=int(input('berapa tahu yang akan di beli: '))
+total_harga=Jumlah_tahu_yang_dibeli*1000
+
+
+if Jumlah_pembayaran >= total_harga:
+    if Jumlah_tahu_yang_dibeli <= 10:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Stok_tahu[0]=Stok_tahu[0]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<= 20:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10
+                Stok_tahu[0]=0
+                Stok_tahu[1]=Stok_tahu[1]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=30:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*2
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=Stok_tahu[2]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=40:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*3
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=Stok_tahu[3]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=50:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*4
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=Stok_tahu[4]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=60:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*5
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=0
+                Stok_tahu[5]=Stok_tahu[5]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=70:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*6
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=0
+                Stok_tahu[5]=0
+                Stok_tahu[6]=Stok_tahu[6]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=80:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*7
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=0
+                Stok_tahu[5]=0
+                Stok_tahu[6]=0
+                Stok_tahu[7]=Stok_tahu[7]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=90:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*8
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=0
+                Stok_tahu[5]=0
+                Stok_tahu[6]=0
+                Stok_tahu[7]=0
+                Stok_tahu[8]=Stok_tahu[8]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    elif Jumlah_tahu_yang_dibeli<=100:
+                print('sisa tahu: ',(len(Stok_tahu)*10)-Jumlah_tahu_yang_dibeli)
+                Jumlah_tahu_yang_dibeli=Jumlah_tahu_yang_dibeli-10*9
+                Stok_tahu[0]=0
+                Stok_tahu[1]=0
+                Stok_tahu[2]=0
+                Stok_tahu[3]=0
+                Stok_tahu[4]=0
+                Stok_tahu[5]=0
+                Stok_tahu[6]=0
+                Stok_tahu[7]=0
+                Stok_tahu[8]=0
+                Stok_tahu[9]=Stok_tahu[9]-Jumlah_tahu_yang_dibeli
+                print('total harga: ',total_harga)
+                print('jumlah kembalian: ',Jumlah_pembayaran-total_harga)
+                print(Stok_tahu)
+    else:
+        print ('stok tidak cukup')
+                
+
+else:
+        print('uang anda kurang')
